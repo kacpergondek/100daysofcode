@@ -57,7 +57,6 @@ if answer1 == "r":
     answer3 = input(
       "Which one do you use to defend yourself? \nA vaccum cleaner[V], A gun [G] or a book [B]\n"
     ).lower()
-
     if answer3 == "b" or answer3 == "g":
       print(
         "Clearly, you have no self-preservation skills, as the ghost makes quick \nwork of you. You have died."
@@ -66,3 +65,9 @@ if answer1 == "r":
       print(
         "Somehow, the vaccum cleaner sucks up the ghost, and you live to see another day. \n You have won."
       )
+    else:
+      print ("You entered a wrong command, and you inaction made the ghost catch up to you and kill you. You have died")
+  else:
+    print ("You entered a wrong command, and you inaction made the ghost catch up to you and kill you. You have died")
+else:
+  print ("You entered a wrong command, and you inaction made the ghost catch up to you and kill you. You have died")
