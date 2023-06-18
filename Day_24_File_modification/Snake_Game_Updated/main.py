@@ -14,6 +14,7 @@ food = Food()
 score = Score()
 #score.readHighScore()
 score.PrintScore()
+score.DrawBorders()
 
 while True:
     screen.listen()

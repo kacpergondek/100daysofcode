@@ -32,3 +32,21 @@ class Score(Turtle):
         with open("/home/kacper/Pobrane/Day_25/Snake_Game_Updated/highscore.txt", mode='w') as file:
             file.write(str(self.high_score))
 
+    def DrawBorders(self):
+        border = Turtle()
+        border.penup()
+        border.goto(-410,0)
+        border.pendown()
+        border.left(90)
+        border.forward(310)
+        border.right(90)
+        border.forward(820)
+        border.right(90)
+        border.forward(620)
+        border.right(90)
+        border.forward(820)
+        border.right(90)
+        border.forward(620)
+        border.right(90)
+        border.hideturtle()
+
